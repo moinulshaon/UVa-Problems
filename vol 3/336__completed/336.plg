@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 336 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\moinul\AppData\Local\Temp\RSPC0E6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/336.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\66.ACM\Workspace\vol 3\336\336.cpp"
+]
+Creating command line "cl.exe @C:\Users\moinul\AppData\Local\Temp\RSPC0E6.tmp" 
+Creating temporary file "C:\Users\moinul\AppData\Local\Temp\RSPC0E7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/336.pdb" /debug /machine:I386 /out:"Debug/336.exe" /pdbtype:sept 
+".\Debug\336.obj"
+]
+Creating command line "link.exe @C:\Users\moinul\AppData\Local\Temp\RSPC0E7.tmp"
+<h3>Output Window</h3>
+Compiling...
+336.cpp
+f:\66.acm\workspace\vol 3\336\336.cpp(82) : error C2374: 'i' : redefinition; multiple initialization
+        f:\66.acm\workspace\vol 3\336\336.cpp(59) : see declaration of 'i'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+336.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
