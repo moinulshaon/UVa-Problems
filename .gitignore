@@ -1,13 +1,8 @@
-*.exe
-*.o
-*.txt
-*.dsp
-*.dsw
-*.ncb
-*.opt
-*.plg
-*.ilk
-*.obj
-*.pch
-*.pdb
-*.idb
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!*/
+# Don't ignore .gitignore and *.foo files
+!.gitignore
+!*.cpp
+!*.c
